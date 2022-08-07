@@ -19,7 +19,10 @@ class UserController {
                 },
                 returning: true
             })
-            res.status(200).json('Login successful!')
+            res.status(200).json({
+                message: 'Login successful!',
+                result: updateStatus[1][0]
+            })
         } catch (error) {       
             console.log(error)
             res.status(500).json(error)
