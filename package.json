@@ -1,0 +1,29 @@
+{
+  "name": "member_id_server",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000e\u0000m\u0000b\u0000e\u0000r\u0000_\u0000i\u0000d\u0000_\u0000t\u0000e\u0000s\u0000t\u0000_\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radwisatso/member_id_test_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radwisatso/member_id_test_server/issues"
+  },
+  "homepage": "https://github.com/Radwisatso/member_id_test_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
