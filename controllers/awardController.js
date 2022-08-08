@@ -19,7 +19,6 @@ class AwardController {
                         }
                     }
                 })
-                console.log(result)
                 res.status(200).json(result)
             } else {
                 const result = await Award.findAll({
@@ -29,7 +28,6 @@ class AwardController {
                         }
                     }
                 })
-                console.log(result)
                 res.status(200).json(result)
             }
         } catch (error) {
